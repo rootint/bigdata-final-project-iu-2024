@@ -1,0 +1,169 @@
+{
+  "type" : "record",
+  "name" : "weather_conditions",
+  "doc" : "Sqoop import of weather_conditions",
+  "fields" : [ {
+    "name" : "location_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "location_id",
+    "sqlType" : "4"
+  }, {
+    "name" : "temperature_celsius",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "temperature_celsius",
+    "sqlType" : "2"
+  }, {
+    "name" : "temperature_fahrenheit",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "temperature_fahrenheit",
+    "sqlType" : "2"
+  }, {
+    "name" : "condition_text",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "condition_text",
+    "sqlType" : "12"
+  }, {
+    "name" : "wind_mph",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "wind_mph",
+    "sqlType" : "2"
+  }, {
+    "name" : "wind_kph",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "wind_kph",
+    "sqlType" : "2"
+  }, {
+    "name" : "wind_degree",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "wind_degree",
+    "sqlType" : "4"
+  }, {
+    "name" : "wind_direction",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "wind_direction",
+    "sqlType" : "12"
+  }, {
+    "name" : "pressure_mb",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "pressure_mb",
+    "sqlType" : "2"
+  }, {
+    "name" : "pressure_in",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "pressure_in",
+    "sqlType" : "2"
+  }, {
+    "name" : "precip_mm",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "precip_mm",
+    "sqlType" : "2"
+  }, {
+    "name" : "precip_in",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "precip_in",
+    "sqlType" : "2"
+  }, {
+    "name" : "humidity",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "humidity",
+    "sqlType" : "4"
+  }, {
+    "name" : "cloud",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "cloud",
+    "sqlType" : "4"
+  }, {
+    "name" : "feels_like_celsius",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "feels_like_celsius",
+    "sqlType" : "2"
+  }, {
+    "name" : "feels_like_fahrenheit",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "feels_like_fahrenheit",
+    "sqlType" : "2"
+  }, {
+    "name" : "visibility_km",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "visibility_km",
+    "sqlType" : "2"
+  }, {
+    "name" : "visibility_miles",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "visibility_miles",
+    "sqlType" : "2"
+  }, {
+    "name" : "uv_index",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "uv_index",
+    "sqlType" : "2"
+  }, {
+    "name" : "gust_mph",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "gust_mph",
+    "sqlType" : "2"
+  }, {
+    "name" : "gust_kph",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "gust_kph",
+    "sqlType" : "2"
+  }, {
+    "name" : "sunrise",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "sunrise",
+    "sqlType" : "92"
+  }, {
+    "name" : "sunset",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "sunset",
+    "sqlType" : "92"
+  }, {
+    "name" : "moonrise",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "moonrise",
+    "sqlType" : "12"
+  }, {
+    "name" : "moonset",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "moonset",
+    "sqlType" : "12"
+  }, {
+    "name" : "moon_phase",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "moon_phase",
+    "sqlType" : "12"
+  }, {
+    "name" : "moon_illumination",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "moon_illumination",
+    "sqlType" : "4"
+  } ],
+  "tableName" : "weather_conditions"
+}

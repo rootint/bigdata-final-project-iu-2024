@@ -1,0 +1,3 @@
+model_name,r2_metric,rmse_metric
+RandomForestRegressor,0.707639134793538,0.7916172513310685
+GBTRegressor,0.6562508850009992,0.8576564830538852

@@ -1,0 +1,61 @@
+{
+  "type" : "record",
+  "name" : "location_and_time",
+  "doc" : "Sqoop import of location_and_time",
+  "fields" : [ {
+    "name" : "location_id",
+    "type" : [ "null", "int" ],
+    "default" : null,
+    "columnName" : "location_id",
+    "sqlType" : "4"
+  }, {
+    "name" : "country",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "country",
+    "sqlType" : "12"
+  }, {
+    "name" : "location_name",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "location_name",
+    "sqlType" : "12"
+  }, {
+    "name" : "region",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "region",
+    "sqlType" : "12"
+  }, {
+    "name" : "latitude",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "latitude",
+    "sqlType" : "2"
+  }, {
+    "name" : "longitude",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "longitude",
+    "sqlType" : "2"
+  }, {
+    "name" : "timezone",
+    "type" : [ "null", "string" ],
+    "default" : null,
+    "columnName" : "timezone",
+    "sqlType" : "12"
+  }, {
+    "name" : "last_updated_epoch",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "last_updated_epoch",
+    "sqlType" : "-5"
+  }, {
+    "name" : "last_updated",
+    "type" : [ "null", "long" ],
+    "default" : null,
+    "columnName" : "last_updated",
+    "sqlType" : "93"
+  } ],
+  "tableName" : "location_and_time"
+}
